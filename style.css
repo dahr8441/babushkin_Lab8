@@ -1,0 +1,139 @@
+/* Базові стилі */
+body {
+    font-family: Georgia, serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f9f9f9;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: #fff;
+}
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+.menu ul {
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.menu ul li a:hover {
+    background-color: #00509e;
+    border-radius: 5px;
+}
+.search {
+    display: flex;
+    gap: 5px;
+}
+.search input {
+    padding: 5px;
+    font-size: 14px;
+}
+.search button {
+    padding: 5px 10px;
+    background-color: #00509e;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+.search button:hover {
+    background-color: #00396b;
+}
+.hero {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.hero-left {
+    flex: 2;
+}
+.hero-left h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+.hero-left p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+.hero-left .read-more {
+    color: #00509e;
+    text-decoration: none;
+    font-weight: bold;
+}
+.hero-right {
+    flex: 3;
+}
+.features {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 20px;
+}
+.feature {
+    text-align: center;
+    flex: 1;
+}
+.feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.feature .read-more {
+    color: #00509e;
+    text-decoration: none;
+}
+.content {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+.text-section, .video-section, .profile-section {
+    flex: 1;
+}
+.text-block {
+    margin-bottom: 20px;
+}
+.text-block h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+.video img {
+    width: 100%;
+    height: auto;
+}
+.profile-section ul {
+    list-style: none;
+    padding: 0;
+}
+.profile-section ul li {
+    margin-bottom: 10px;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #004080;
+    color: #fff;
+    margin-top: 20px;
+    font-size: 14px;
+}
+.footer-left {
+    text-align: left;
+}
+.footer-right {
+    text-align: right;
+}
